@@ -1,0 +1,44 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.LibSVM -S 3 -K 2 -D 19 -G 0.5 -R 4000.0 -N 0.1 -M 40.0 -C 4000.0 -E 0.35 -P 0.1 -Z -seed 1
+Relation:     train-weka.filters.unsupervised.attribute.Remove-R2,7
+Instances:    757
+Attributes:   20
+              F1
+              F3
+              F4
+              F5
+              F6
+              F8
+              F9
+              F10
+              F11
+              F12
+              F13
+              F14
+              F15
+              F16
+              F17
+              F18
+              F19
+              F20
+              F21
+              Label
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 1.22 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correlation coefficient                  0.904 
+Mean absolute error                      0.1878
+Root mean squared error                  0.2532
+Relative absolute error                 38.7811 %
+Root relative squared error             42.8329 %
+Total Number of Instances              757     
+
